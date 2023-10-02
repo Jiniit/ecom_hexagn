@@ -28,10 +28,10 @@ class Home extends BaseController
         $data['brands'] = $brandsModel->findall();
         $data['categories'] = $categoryModel->findAll();
         $data['products'] = $productModel->getAllProduct();
-        $data = [
-            'products' => $productModel->getAllProduct()->paginate(6),
-            'pager' => $productModel->pager
-        ];
+        // $data = [
+        //     'products' => $productModel->getAllProduct()->paginate(6),
+        //     'pager' => $productModel->pager
+        // ];
         return view('frontEnd/allproducts', $data);
     }
     public function pager()
