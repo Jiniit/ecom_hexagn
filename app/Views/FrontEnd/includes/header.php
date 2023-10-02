@@ -289,14 +289,14 @@
                                     <a class="dropdown-item" href="<?= base_url('/allproducts') ?>">
                                         <i class="fa fa-caret-right me-1 col_oran"></i>All Product </a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a class="dropdown-item " href="<?= base_url('/top_products') ?>">
                                         <i class="fa fa-caret-right me-1 col_oran"></i> Top Products </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item border-0" href="<?= base_url('/feature_products') ?>">
                                         <i class="fa fa-caret-right me-1 col_oran"></i> Featured Products </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </li>
                         <li class="nav-item">
